@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="redirctTo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Adapteurs" />
+
+    <Button
+        android:id="@+id/listAdapterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="redirctTo"
+        android:tag="list"
+        android:text="List Adapteur" />
+
+    <Button
+        android:id="@+id/spinnerAdapterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="redirctTo"
+        android:tag="spinner"
+        android:text="Spinner Adapter" />
+
+    <Button
+        android:id="@+id/autocompleteAdatper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="redirctTo"
+        android:tag="autocomplete"
+        android:text="Autocomplete" />
+
+    <Button
+        android:id="@+id/gridAdpaterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="redirctTo"
+        android:tag="grid"
+        android:text="Grid Adpater" />
+
+    <Button
+        android:id="@+id/customizedAdapterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="redirctTo"
+        android:tag="customized"
+        android:text="Customized Adapter" />
+</LinearLayout>
